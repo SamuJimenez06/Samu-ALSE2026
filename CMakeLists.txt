@@ -5,7 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 add_executable(underground_system UndergroundSystem.cpp main_underground.cpp)
-
-add_executable(atm_test ATM.cpp main_atm.cpp)
-
-
+add_executable(atm_test ATM.cpp main.cpp)
+add_executable(auction_test AuctionSystem.cpp main_auction.cpp)
